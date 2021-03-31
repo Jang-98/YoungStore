@@ -2,10 +2,12 @@ package House;
 
 public class RoomType {
 	
+	//필드 생성
 	private int price;
 	private int roomSize;
 	
-	public RoomType(int price, int roomSize) {//생성자
+	//생성자 구현
+	public RoomType(int price, int roomSize) {
 
 		this.price = price; //this.price은 필드, price은 매개변수
 		this.roomSize = roomSize; //this.roomSize은 필드, roomSize은 매개변수

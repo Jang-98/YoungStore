@@ -7,10 +7,10 @@ import Util.WorkshopUtil;
 public class PensionTest {
 
 	public static void main(String[] args) {
-		
+
 		IPensionBiz biz = new PensionBiz(); // 객체 생성(IPensionBiz 참조타입)
 		biz.initiallizeRoomData();
-		while (true) {
+		while(true){
 			try {
 				WorkshopUtil.printHeader();			
 				String input = WorkshopUtil.getUserInput("# 메뉴를 입력하세요 >> ");
@@ -43,5 +43,4 @@ public class PensionTest {
 			
 		}
 	}
-
 }

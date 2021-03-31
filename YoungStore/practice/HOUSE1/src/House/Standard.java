@@ -2,7 +2,9 @@ package House;
 
 public class Standard extends RoomType{ // RoomType 클래스를 상속 받도록 extends로 정의
 	
-	public Standard() {// 생성자
+
+	// 생성자 구현
+	public Standard() {
 		
 		super(80000,14); // 객체 생성, 가격은 80000, 평수는 14평
 	}
